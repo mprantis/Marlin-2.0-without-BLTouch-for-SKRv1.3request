@@ -1,1 +1,3 @@
 # Marlin-2.0-without-BLTouch-for-SKRv1.3request
+
+Look at my image for how I setup my board. The origin on the ender-5 is in the lower-left corner and that is 0,0. Where the ender-5 homes is in the upper-right corner and that is max, max. So when wiring your endestops on the skr v1.3 board make sure your X/Y axis end stops are in the maximum ports. Yuor Z axis end stop should be in the minimum as it starts at 0 and goes to 300 as it lowers down. You need to cut one of left prong on your end stops to fit them on the end stop connection. They plug into the bottom two pins on the 3 pin connection. 
